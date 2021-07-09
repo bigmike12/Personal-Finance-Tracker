@@ -1,0 +1,145 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@600;800;500&display=swap');
+
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    font-family: 'Montserrat', sans-serif;
+    background-color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: auto;
+    }
+
+    .container{
+        width: 285px;
+    }
+
+    
+    .image{
+        text-align: center;
+        margin-bottom: 90px;
+    }
+
+    .entry{
+        position: relative;
+    }
+
+    .entry i{
+        position: absolute;
+        left: 85%;
+        bottom: 50%;
+    }
+
+    input{
+        width: 100%;
+        padding: 15px 27px;
+        margin-bottom: 15px;
+        border-radius: 36px;
+        border: none;
+        background-color: #D9A491;
+        font-size: 14px;
+        font-weight: 500;
+    }
+
+    .form button{
+        width: 100%;
+        padding: 15px 27px;
+        border-radius: 36px;
+        background-color: #5a0059;
+        color: #fff;
+        font-size: 20px;
+        font-weight: 600;
+        border: none;
+        margin-top: 10px;
+        margin-bottom: 20px;
+    }
+
+    .footer p{
+        line-height: 24px;
+        font-size: 16px;
+        font-weight: 500;
+    }
+
+    .footer span a{
+        font-size: 16px;
+        font-weight: 800;
+        color: black;
+    }
+
+@media screen and (max-width: 600px) {
+    body{
+    font-family: 'Montserrat', sans-serif;
+    background-color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: auto;
+    }
+
+    .container{
+        width: 285px;
+    }
+
+    .entry{
+        position: relative;
+    }
+
+    .entry i{
+        position: absolute;
+        left: 85%;
+        bottom: 50%;
+    }
+
+    input{
+        width: 100%;
+        padding: 15px 27px;
+        margin-bottom: 15px;
+        border-radius: 36px;
+        border: none;
+        background-color: #D9A491;
+        /* font-size: 14px;
+        font-weight: 500; */
+    }
+
+    ::placeholder{
+        font-size: 14px;
+        color: black;
+        font-weight: 500;
+    }
+
+    .form button{
+        width: 100%;
+        padding: 15px 27px;
+        border-radius: 36px;
+        background-color: #5a0059;
+        color: #fff;
+        font-size: 20px;
+        font-weight: 600;
+        border: none;
+        margin-top: 10px;
+        margin-bottom: 20px;
+    }
+
+    .footer{
+        margin-top: 60px;
+    }
+
+    .footer p{
+        line-height: 24px;
+        font-size: 16px;
+        font-weight: 500;
+    }
+
+    .footer span a{
+        font-size: 16px;
+        font-weight: 800;
+        color: black;
+    }
+}
